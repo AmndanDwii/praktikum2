@@ -11,6 +11,7 @@ class LandingPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Image.asset('assets/images/gambar1.png'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/product');
